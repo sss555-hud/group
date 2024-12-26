@@ -39,3 +39,126 @@
     font-size: 22px;
     font-weight: 900;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .footer {
+    width: 1500px;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    background: linear-gradient(135deg, #0cd19c, #7e619b);
+    border-radius: 25px;
+    color: #fff;
+    padding: 20px 40px;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-logo h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 0 15px;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  
+  .social-links {
+    margin: 10px 0;
+  }
+  
+  .social-links a {
+    margin: 0 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ccc;
+  }
+  
+  .social-links a:hover {
+    color: #fff;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .subscribe-form button {
+    padding: 10px 20px;
+    background-color: #5a5af5;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #4646d4;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #ccc;
+  }
